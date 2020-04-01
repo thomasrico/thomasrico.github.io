@@ -1,0 +1,73 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.liens{
+  padding: 16px;
+}
+
+.boutons{
+  display:flex;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.texte_central{
+  display: flex;
+  justify-content: center;
+
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  color : rgba(0,0,0,0.54);
+  background-color: #F2F2F2
+}
+
+.infos_bas{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+
+}
+
+.bas_gauche{
+  display: flex;
+
+
+}
+
+.bas_droite{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.pays{
+  display:flex;
+}
+
+*
+{
+  font-family: arial, sans-serif;
+  color: rgba(0,0,0,0.87);
+  font-size: small;
+}
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:700px;
+
+
+}
